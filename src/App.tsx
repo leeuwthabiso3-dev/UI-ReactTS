@@ -6,8 +6,8 @@ function App() {
     <div>
       <div className="header">
         <div className='heading'>
-          <label>PLAY</label>
-          <label>NFT</label>
+          <label>B</label>
+          <label className='lovey'>Lovey</label>
         </div>
         <div className="navbar">
           <a href="#home">Home</a>

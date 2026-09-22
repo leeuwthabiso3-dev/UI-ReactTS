@@ -7,12 +7,11 @@
 .heading {
   padding: 25px 16px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navbar {
-  overflow: hidden;
-  width: 75%;
+  width: 100%;
   align-self: center;
 }
 
@@ -22,7 +21,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
+  color: black;
 }
 
 .navbar a:focus {
@@ -32,6 +32,7 @@
 .input {
   margin-top: 20px;
   height: 30px;
+  width: 50px;
   border-radius: 20px;
 }
 
@@ -84,11 +85,12 @@
 button {
   margin: 20px;
   margin-top: 40px;
-  width: 100px;
+  width: 70px;
   height: 35px;
   background-color: #055038;
   color: #fff;
   border-radius: 10px;
+  font-size: 12px;
 }
 
 .btn2 {
@@ -116,10 +118,14 @@ p {
 
 .imgBtn1 {
   position: absolute;
-  margin-top: 40%;
+  margin-top: 280px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #fff;
   color: black;
+}
+
+.lovey {
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
